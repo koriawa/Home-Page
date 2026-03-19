@@ -1,116 +1,35 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
-    <link rel="stylesheet" href="./style.css">
-    <!-- 引入初始化样式 -->
-    <link rel="stylesheet" href="https://cdn.staticfile.org/normalize/8.0.1/normalize.min.css">
-    <!-- 预连接CDN站点 -->
-    <link rel="preconnect" href="https://npm.elemecdn.com">
-    <link rel="preconnect" href="https://cdn.staticfile.org">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./assets/waifu.css"/>
-    <title>MeowSama の Home</title>
-
+    <title>关于我 - Kori</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <div class="bg-filter"></div>
-
-    <div class="imfcard">
-        <div class="nav">
-            <div class="bg2"></div>
-            <div class="bt active" to="#page1">Home</div>
-            <div class="bt" to="#page2">Archives</div>
-            <div class="bt" to="#page3">Website</div>
-            <div class="bt" to="#page4">Donate</div>
-        </div>
-
-        <div class="bg"></div>
-
-        <section id="page1" class="content active">
-            <article>
-                <img src="./assets/img/avatar.png" alt="avatar">
-                <h1>MeowSama</h1>
-                <h5> <del>变态</del> loli控 / 宅 / 14岁,是学生 </h5>
-            </article>
-            <div class="navbottom">
-                <ul>
-                    <li>
-                        <a href="https://admin.qidian.qq.com/static_proxy/b2b-qq/wpa-link/index.html#/person?uin=3196793494"target="_blank"><i class="bi bi-tencent-qq"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/MeowSamaQWQ" target="_blank"><i class="bi bi-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://t.me/MeowSamaQWQ" target="_blank"><i class="bi bi-telegram"></i></a>
-                    </li>
-                    <li>
-                        <a href="mailto:meowsamaqwq@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="page2" class="content">
-            <h1>最近文章</h1>
-            <ul class="archivelist">
-
+    <div class="nav">
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#ARCHIVES">ARCHIVES</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li>
             </ul>
-        </section>
-
-        <section id="page3" class="content">
-            <h1 id="text2">我的网站:</h1>
-            <div class="where">
-                <a href="https://blog.meow.ink/" target="_blank"><i class="bi bi-house"></i><span id="textitem">Blog</span></a>
-                <a href="https://status.meow.ink/" target="_blank"><i class="bi bi-bar-chart"></i><span
-                        id="textitem">服务器状态</span></a>
-            </div>
-        </section>
-
-        <section id="page4" class="content">
-            <h1>求投食喵~</h1>
-            <img src="./assets/img/qr.png" alt="donateimg">
-        </section>
-    </div>
-    <div class="hitokoto">
-        <p id="hitokotocontent"></p>
-    </div>
-    <script>
-
-    </script>
-
-    <div class="waifu">
-        <div class="waifu-tips"></div>
-        <canvas id="live2d" class="live2d"></canvas>
-        <div class="waifu-tool">
-            <span class="fui-home"></span>
-            <span class="fui-chat"></span>
-            <span class="fui-eye"></span>
-            <span class="fui-user"></span>
-            <span class="fui-photo"></span>
-            <span class="fui-info-circle"></span>
-            <span class="fui-cross"></span>
         </div>
     </div>
-    <script src="./assets/waifu-tips.js"></script>
-    <script src="./assets/live2d.js"></script>
-    <script type="text/javascript">
-        live2d_settings['modelId'] = 1;
-        live2d_settings['modelTexturesId'] = 87;
-    	initModel("./assets/waifu-tips.json")
-    </script>
-    <script src="./assets/js/main.js"></script>
-</body>
-<footer>
-    <div class="bottom">
-        <span id="runningtime"></span>
-        <p>Made By <a href="https://meow.ink">MeowSama</a></p>
+    
+    <div class="bg-container">
+        <div class="container">
+            <div class="text-card">
+                <h1>Hi! 👋<br>I'm Kori</h1>
+                <p>A Student</p>
+            </div>
+            <div class="avatar">
+                <img src="" alt="个人头像">
+            </div>
+        </div>
     </div>
-</footer>
-
-
+</body>
 
 </html>
