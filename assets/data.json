@@ -1,0 +1,26 @@
+{
+  "name": "Kori",
+  "title": "Student / L4D2 Server Admin",
+  "contacts": [
+    {
+      "type": "Email",
+      "value": "admin@kori.moe",
+      "icon": "✉️"
+    },
+    {
+      "type": "GitHub",
+      "value": "https://github.com/koriawa",
+      "icon": "💻"
+    },
+    {
+      "type": "Discord",
+      "value": "koriqwq",
+      "icon": "🎮"
+    },
+    {
+      "type": "L4D2 Server",
+      "value": "l4d2.kori.moe:27025",
+      "icon": "🎯"
+    }
+  ]
+}

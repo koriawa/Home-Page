@@ -6,30 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>关于我 - Kori</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/main.js" defer></script>
+    <script src="./assets/js/jquery-4.0.0.min.js"></script>
+    <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
 </head>
 
 <body>
+    <!-- 导航栏 -->
     <div class="nav">
         <div class="nav-container">
             <ul class="nav-links">
-                <li><a href="#HOME">HOME</a></li>
-                <li><a href="#ARCHIVES">ARCHIVES</a></li>
-                <li><a href="#CONTACT">CONTACT</a></li>
+                <li><a class="nav-link active" data-target="home">HOME</a></li>
+                <li><a class="nav-link" data-target="archives">ARCHIVES</a></li>
+                <li><a class="nav-link" data-target="server">L4D2 Server</a></li>
+                <li><a class="nav-link" data-target="contact">CONTACT</a></li>
             </ul>
         </div>
     </div>
-    
+
     <div class="bg-container">
-        <div class="container">
-            <div class="text-card">
+        <div class="main-container">
+            <div class="card-container active" id="home">
                 <h1>Hi! 👋<br>I'm Kori</h1>
                 <p>A Student</p>
             </div>
+            <div class="card-container" id="archives">
+                <h1>Archives</h1>
+                <ul class="archive-list" id="archiveList"></ul>
+            </div>
+            <div class="card-container" id="server">
+                <h1>L4D2 Server</h1>
+                <p>Game Server Info</p>
+            </div>
+            <div class="card-container" id="contact">
+                <h1>Contact Me</h1>
+                <ul class="contact-list" id="contactList"></ul>
+            </div>
             <div class="avatar">
-                <img src="" alt="个人头像">
+                <img src="https://picsum.photos/300/300" alt="个人头像">
             </div>
         </div>
+        <meting-js server="netease" type="playlist" id="8525191395" fixed="true" mini ="true"></meting-js>
     </div>
 </body>
-
 </html>
