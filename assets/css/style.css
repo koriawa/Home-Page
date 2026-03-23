@@ -24,25 +24,34 @@
     .nav-links a {
         padding: 6px 1px; /* 减小内边距，适配小屏 */
     }
-
     .avatar {
-        margin: 40px 0 0 0;
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         flex: 0 0 200px;
     }
     .nav-container{
         width: 100%;
     }
     .card-container h1{
-        font-size: 30px !important;
+        font-size: 50px !important;
     }
 
     .card-container p {
         font-size: 12px !important;
     }
 }
+@media (max-height: 768px) {
+    .avatar {
+        display: none;
+    }
+    .card-container h1{
+        font-size: 56px !important;
+    }
 
+    .card-container p {
+        font-size: 24px !important;
+    }
+}
 html,
 body {
     width: 100%;
@@ -56,11 +65,13 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
+    background: transparent;
     align-items: center;
     overflow: hidden;
 }
 
 .bg-container::before {
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -71,6 +82,7 @@ body {
     filter: blur(5px);
     transform: scale(1.1);
     z-index: -1;
+
 }
 
 .main-container {
@@ -190,7 +202,7 @@ body {
     width: 100%;
 }
 
-#archives, #server, #contact{
+#archives, #websites, #contact{
     width: 400px;
     height: 400px;
     background-color: rgba(135, 207, 235, 0.5);
@@ -209,7 +221,7 @@ body {
     color: #8be0fa;
 }
 
-.contact-list {
+.contact-list ,.website-list{
     list-style: none;
     margin-top: 1.5rem;
     display: flex;
@@ -217,7 +229,7 @@ body {
     gap: 1rem;
 }
 
-.contact-item ,.archive-item{
+.contact-item ,.archive-item,.website-item{
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -227,7 +239,7 @@ body {
     transition: transform 0.2s ease;
 }
 
-.contact-item:hover, .archive-item:hover {
+.contact-item:hover, .archive-item:hover ,.website-item:hover{
     transform: translateY(-2px);
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }

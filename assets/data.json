@@ -1,6 +1,5 @@
 {
   "name": "Kori",
-  "title": "Student / L4D2 Server Admin",
   "contacts": [
     {
       "type": "Email",
@@ -21,6 +20,18 @@
       "type": "L4D2 Server",
       "value": "l4d2.kori.moe:27025",
       "icon": "🎯"
+    }
+  ],
+  "websites": [
+    {
+      "type": "BLOG",
+      "value": "https://blog.kori.moe",
+      "icon": "📖"
+    },
+    {
+      "type": "STATUS",
+      "value": "https://status.kori.moe",
+      "icon": "📊"
     }
   ]
 }
