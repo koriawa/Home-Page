@@ -3,34 +3,34 @@
   "contacts": [
     {
       "type": "Email",
-      "value": "admin@kori.moe",
+      "value": "admin@awau.cc",
       "icon": "✉️"
     },
     {
       "type": "GitHub",
-      "value": "https://github.com/koriawa",
+      "value": "https://github.com/kafuuchinoawa",
       "icon": "💻"
     },
     {
       "type": "Discord",
-      "value": "koriqwq",
+      "value": "kafuuchinoqwq",
       "icon": "🎮"
     },
     {
       "type": "L4D2 Server",
-      "value": "l4d2.kori.moe:27025",
+      "value": "l4d2.awau.cc:20059",
       "icon": "🎯"
     }
   ],
   "websites": [
     {
-      "type": "BLOG",
-      "value": "https://blog.kori.moe",
+      "type": "BLOG ( 已倒闭 )",
+      "value": "https://blog.awau.cc",
       "icon": "📖"
     },
     {
       "type": "STATUS",
-      "value": "https://status.kori.moe",
+      "value": "https://status.awau.cc",
       "icon": "📊"
     }
   ]
