@@ -136,7 +136,7 @@ function getArchives() {
 
     // 使用jQuery的ajax加载博客文章
     $.ajax({
-        url: 'https://blog.kori.moe/wp-json/wp/v2/posts?per_page=8&page=1',
+        url: 'https://blog.awau.cc/wp-json/wp/v2/posts?per_page=8&page=1',
         method: 'GET',
         dataType: 'json',
         success: function (data) {
